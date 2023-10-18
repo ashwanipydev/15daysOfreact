@@ -4,7 +4,7 @@ import './App.css'
 import Notes from './Notes'
 
 function App() {
-  const [count, setCount] = useState()
+
 
   return (
     <>
@@ -44,6 +44,19 @@ function App() {
     </ol>
     </p>
 
+    <hr />
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kAOuj6o7Kxs?si=9D0PHC2bCuYEBSAh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p class="note">
+    "In this video, we attempt to create our own React clone. While it may not be as powerful as the real React, it makes sense for learning purposes. We take some steps toward React:
+    Create an HTML file.
+    Create a JavaScript file."
+    "If you create custom elements, you can use React.createElement() and pass it in ReactDOM.render(). If you want to pass any kind of variable, you can do so, but it's called an evaluated expression because you cannot mix it with JavaScript concepts like ${}. Here, it is valid, but React doesn't allow it because it operates behind the scenes as an object. In this video, you'll learn about the React and Babel concept."
+    </p>
+    <hr />
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lI7IIOWM0Mo?si=-ktrxWGrTBWvFDLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p className='note'>
+    In this video, we learn some important concepts of the 'useState()' hook, including how to update multiple things simultaneously with a single click.
+    </p>
 
     </>
   )
