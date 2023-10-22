@@ -1,7 +1,5 @@
 {
     "editor.fontSize": 24,
     "terminal.integrated.fontSize": 22,
-    "extensions" : ["bradlc.vscode-tailwindcss",
-                    "esbenp.prettier-vscode",
-                "formulahendry.auto-rename-tag"]
+    "editor.wordWrap": "on"
 }
